@@ -1,4 +1,4 @@
-name: dev-vars
+name: dev
 
 # Required for OIDC
 permissions:
