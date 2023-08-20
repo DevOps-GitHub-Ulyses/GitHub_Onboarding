@@ -1,0 +1,4 @@
+key                  = "dev_github_onboarding.tfstate"
+resource_group_name  = "GitHubtfstate"
+storage_account_name = "githubulramos"
+container_name       = "githubulramos"
