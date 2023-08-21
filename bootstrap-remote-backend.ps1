@@ -28,7 +28,7 @@ if (-Not (Get-AzADAppFederatedCredential -ApplicationObjectId $app.Id))
         ApplicationObjectId = $app.Id
         Audience            = 'api://AzureADTokenExchange'
         Issuer              = 'https://token.actions.githubusercontent.com'
-        Name                = "$tf_sp_name-bootcamp"
+        Name                = "$tf_sp_name-github-onboard"
         Subject             = "repo:$ghOrgName/${ghRepoName}:environment:$ghRepoEnvironmentName"
     }
     $cred = New-AzADAppFederatedCredential @params
